@@ -1,0 +1,13 @@
+.DS_Store
+.venv/
+.idea/
+__pycache__/
+*.pyc
+*.JPG
+*.jpg
+*.jpeg
+*.png
+
+# The timed hint page is published separately.
+/index.html
+/stego-hints/
