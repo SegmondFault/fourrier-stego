@@ -1,6 +1,6 @@
 # fourrier-stego
 
-A small steganography challenge that hides a payload (utf8) in the frequency domain of an image. But for a CTF.
+A small steganography challenge that hides a payload (utf8) in the frequency domain of an image. Built for a CTF.
 
 The encoder writes a Fourier-domain pattern into `hidden_fourier.png`. The decoder shows the intended recovery path: transform the image, compare paired frequency spikes, rebuild bytes, check the `FT` magic marker, read a 2-byte big-endian length, and decode the message.
 
