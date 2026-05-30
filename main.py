@@ -4,7 +4,7 @@ import numpy as np
 IMAGE_IN = "input.JPG"
 IMAGE_OUT = "hidden_fourier.png"
 
-MESSAGE = "Flag{ihateyouizaak},Hint{Turing}"
+MESSAGE = "FLAG{izaakihateyou},Hint{Turing}"
 MAGIC = b"FT"
 
 # These must match decoder.py exactly.
